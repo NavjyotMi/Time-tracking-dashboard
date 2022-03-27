@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Montserrat:wght@300;400;500;600;700;900&family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container container--time--track">
+      <section class="profile">
+        <div class="upper--segment">
+          <img src="images/image-jeremy.png" alt="" />
+          <div>
+            <p>Report for</p>
+            <h2>Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="lower--segment">
+          <ul>
+            <li><a href="" class="button">Daily</a></li>
+            <li><a href="" class="button">Weekly</a></li>
+            <li><a href="" class="button">Monthly</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ========= D A I L Y ========= -->
+      <section class="cols--three--grid container--times daily--col">
+        <!-- !work -->
+        <div class="work--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Work</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>5hrs</h1>
+            <p>Yesterday - 6hrs</p>
+          </div>
+        </div>
+
+        <!-- !play -->
+        <div class="play--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>play</h4>
+              <a href=""><img src="/images/icon-ellipsis.svg" alt="" /></a>
+            </div>
+            <h1>2hrs</h1>
+            <p>Yesterday - 2hrs</p>
+          </div>
+        </div>
+
+        <!-- !study -->
+        <div class="study--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Study</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>3hrs</h1>
+            <p>Yesterday - 4hrs</p>
+          </div>
+        </div>
+
+        <!-- !exercise -->
+        <div class="exercise--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Exercise</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>30min</h1>
+            <p>Yesterday - 30min</p>
+          </div>
+        </div>
+
+        <!-- !social -->
+        <div class="social--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Social</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>20min</h1>
+            <p>Yesterday - 30hrs</p>
+          </div>
+        </div>
+
+        <!-- !selfcare -->
+        <div class="selfcare--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Self Care</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>30min</h1>
+            <p>Yesterday - 30</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= END OF DAILY SECTION========= -->
+
+      <!-- ========= W E E K L Y ========= -->
+      <section class="cols--three--grid container--times weekly--col hide">
+        <!-- !work -->
+        <div class="work--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Work</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>32hrs</h1>
+            <p>Last Week - 36hrs</p>
+          </div>
+        </div>
+
+        <!-- !play -->
+        <div class="play--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>play</h4>
+              <a href=""><img src="/images/icon-ellipsis.svg" alt="" /></a>
+            </div>
+            <h1>10hrs</h1>
+            <p>Last Week - 8hrs</p>
+          </div>
+        </div>
+
+        <!-- !study -->
+        <div class="study--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Study</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>32hrs</h1>
+            <p>Last Week - 7hrs</p>
+          </div>
+        </div>
+
+        <!-- !exercise -->
+        <div class="exercise--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Exercise</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>4hrs</h1>
+            <p>Last Week - 4hrs</p>
+          </div>
+        </div>
+
+        <!-- !social -->
+        <div class="social--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Social</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>5hrs</h1>
+            <p>Last Week - 10hrs</p>
+          </div>
+        </div>
+
+        <!-- !selfcare -->
+        <div class="selfcare--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Self Care</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>2hrs</h1>
+            <p>Last Week - 2hrs</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= END OF WEEKLY SECTION========= -->
+
+      <!-- ========= M O N T H L Y ========= -->
+      <section class="cols--three--grid container--times monthly--col hide">
+        <!-- !work -->
+        <div class="work--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Work</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>160hrs</h1>
+            <p>Last Month - 152hrs</p>
+          </div>
+        </div>
+
+        <!-- !play -->
+        <div class="play--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>play</h4>
+              <a href=""><img src="/images/icon-ellipsis.svg" alt="" /></a>
+            </div>
+            <h1>40hrs</h1>
+            <p>Month - 135hrs</p>
+          </div>
+        </div>
+
+        <!-- !study -->
+        <div class="study--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Study</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>45hrs</h1>
+            <p>Month - 30hrs</p>
+          </div>
+        </div>
+
+        <!-- !exercise -->
+        <div class="exercise--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Exercise</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>16hrs</h1>
+            <p>Month - 16hrs</p>
+          </div>
+        </div>
+
+        <!-- !social -->
+        <div class="social--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Social</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>20hrs</h1>
+            <p>Month - 15hrs</p>
+          </div>
+        </div>
+
+        <!-- !selfcare -->
+        <div class="selfcare--upper">
+          <div class="work--main">
+            <div class="align--work">
+              <h4>Self Care</h4>
+              <img src="/images/icon-ellipsis.svg" alt="" />
+            </div>
+            <h1>5hrs</h1>
+            <p>Month - 4:30hrs</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- daily -->
+    <!-- Previous - 7hrs -->
+    <!-- daily -->
+    <!-- 32hrs -->
+    <!-- weekly -->
+    <!-- Previous - 36hrs -->
+    <!-- weekly -->
+    <!-- 103hrs -->
+    <!-- monthly -->
+    <!-- Previous - 128hrs -->
+    <!-- monthly -->
+
+    <!-- Play 1hr -->
+    <!-- daily -->
+    <!-- Previous - 2hrs -->
+    <!-- daily -->
+    <!-- 10hrs -->
+    <!-- weekly -->
+    <!-- Previous - 8hrs -->
+    <!-- weekly -->
+    <!-- 23hrs -->
+    <!-- monthly -->
+    <!-- Previous - 29hrs -->
+    <!-- monthly -->
+
+    <!-- Study 0hrs -->
+    <!-- daily -->
+    <!-- Previous - 1hr -->
+    <!-- daily -->
+    <!-- 4hrs -->
+    <!-- weekly -->
+    <!-- Previous - 7hrs -->
+    <!-- weekly -->
+    <!-- 13hrs -->
+    <!-- monthly -->
+    <!-- Previous - 19hrs -->
+    <!-- monthly -->
+
+    <!-- Exercise 1hr -->
+    <!-- daily -->
+    <!-- Previous - 1hr -->
+    <!-- daily -->
+    <!-- 4hrs -->
+    <!-- weekly -->
+    <!-- Previous - 5hrs -->
+    <!-- weekly -->
+    <!-- 11hrs -->
+    <!-- monthly -->
+    <!-- Previous - 18hrs -->
+    <!-- monthly -->
+
+    <!-- Social 1hr -->
+    <!-- daily -->
+    <!-- Previous - 3hrs -->
+    <!-- daily -->
+    <!-- 5hrs -->
+    <!-- weekly -->
+    <!-- Previous - 10hrs -->
+    <!-- weekly -->
+    <!-- 21hrs -->
+    <!-- monthly -->
+    <!-- Previous - 23hrs -->
+    <!-- monthly -->
+
+    <!-- Self Care 0hrs -->
+    <!-- daily -->
+    <!-- Previous - 1hr -->
+    <!-- daily -->
+    <!-- 2hrs -->
+    <!-- weekly -->
+    <!-- Previous - 2hrs -->
+    <!-- weekly -->
+    <!-- 7hrs -->
+    <!-- monthly -->
+    <!-- Previous - 11hrs -->
+    <!-- monthly -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Navjyot Kumar mishra</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
